@@ -18,6 +18,16 @@ Many people use AI as a chat window. My work is built around a deeper pattern:
 
 The goal is not to hide that AI is involved. The goal is to show the operating system around it.
 
+## Proof Artifacts
+
+| Artifact | What it shows |
+| --- | --- |
+| `docs/operating-model.md` | How the human/operator role, agents, tools, and review loops fit together |
+| `docs/skills-and-memory.md` | Reusable skills, durable memory, and continuity model |
+| `docs/browser-resource-governance.md` | Shared browser/session controls for parallel agent work |
+| `docs/verification-loop.md` | How claims are checked before work is treated as complete |
+| `examples/session-slice.md` | Compact example of the operating style |
+
 ## The Throughline
 
 I build AI-assisted systems that turn noisy real-world signals into bounded operational decisions.
