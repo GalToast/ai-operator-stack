@@ -17,15 +17,16 @@ I build AI-assisted systems that turn noisy real-world signals into bounded oper
 
 ## How To Read The Profile
 
-Start with this repo if you want to understand how I work.
+Start with `opencode-fork` and `semantic-demo` if you want the fastest proof of scope and execution. Read this repo when you want the operating model behind that work.
 
 Then read:
 
-1. `website-audit-engine` for practical automation and evidence discipline.
-2. `leadops` for data/retrieval/product workflow.
-3. `trading-bots` for deeper research-system thinking.
-4. `semantic-demo` for visual/frontend presentation.
-5. `opencode-fork` for AI coding workbench systems: task DAGs, semantic retrieval, TUI proof artifacts, and stateful agent runtime.
+1. `opencode-fork` for AI coding workbench systems: task DAGs, semantic retrieval, TUI proof artifacts, and stateful agent runtime.
+2. `semantic-demo` for visual/frontend presentation and inspectable semantic search.
+3. `ai-operator-stack` for the workflow model: agents, memory, skills, browser governance, and verification.
+4. `leadops` for data/retrieval/product workflow.
+5. `website-audit-engine` for practical browser automation and confidence-tiered evidence discipline.
+6. `trading-bots` for paper/experimental research-system thinking under noisy signals.
 
 ## What I Am Claiming
 
@@ -38,4 +39,4 @@ I am claiming AI-native operating competence:
 - can package messy local work into public artifacts
 - can keep claims aligned to proof
 
-I am not claiming traditional senior software engineering depth in every layer of the stack. The value is at the intersection of AI systems, operations, product judgment, automation, and verification.
+I am not claiming equal specialist depth in every layer of every stack. The value is at the intersection of AI systems, operations, product judgment, automation, and verification.
