@@ -1,6 +1,6 @@
 # AI Operator Stack
 
-Public case study of a terminal-first, human-in-the-loop AI operating system.
+Public case study of a terminal-first, human-in-the-loop AI operating model.
 
 This repo explains how I use AI agents, local memory, MCP tools, browser automation, reusable skills, and verification loops to build real software and operational workflows. It is not presented as traditional solo hand-coding. It is presented as an AI-native operating practice: I act as architect, operator, reviewer, and quality controller while agents perform bounded implementation, research, testing, and documentation work.
 
@@ -16,7 +16,21 @@ Many people use AI as a chat window. My work is built around a deeper pattern:
 - verification loops that make weak assumptions visible
 - resource controls so parallel agents do not collide over shared tools
 
-The goal is not to hide that AI is involved. The goal is to show the operating system around it.
+The goal is not to hide that AI is involved. The goal is to show the operating model around it.
+
+## What Is Actually In This Repo
+
+This is a documentation-first repo. It contains:
+
+- `README.md` — the top-level framing for the single-person AI operating model.
+- `docs/operating-model.md` — the role split between human operator, main agent, subagents, tools, and memory/docs.
+- `docs/skills-and-memory.md` — how reusable skills and durable memory keep repeated AI work from restarting at zero.
+- `docs/browser-resource-governance.md` — how shared browser automation resources are controlled so agents do not collide.
+- `docs/verification-loop.md` — the evidence and adversarial-review loop used before claims are treated as finished.
+- `docs/public-portfolio-map.md` — how this operating model maps onto the public portfolio repos.
+- `examples/session-slice.md` — a sanitized example of a session structure and decision trail.
+
+It does not contain private memory, private lead data, client data, secrets, raw logs, or the full local workspace.
 
 ## Proof Artifacts
 
@@ -70,7 +84,7 @@ For AI and AI-adjacent roles, this repo is meant to show:
 - Not a dump of private workspace data.
 - Not a replacement for reading the project repos themselves.
 
-The claim is narrower and stronger: I can operate AI systems deeply enough to produce useful software, audits, workflows, research surfaces, and public-facing artifacts while keeping verification and human judgment in the loop.
+The claim is narrower and stronger: I can operate AI systems in a structured enough way to produce useful software, audits, workflows, research surfaces, and public-facing artifacts while keeping verification and human judgment in the loop.
 
 ## Vocabulary
 
