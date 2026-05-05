@@ -38,7 +38,7 @@ That shows up in several public projects:
 - `website-audit-engine`: evidence-tiered website audit automation
 - `leadops`: retrieval, mailbox parsing, lead normalization, and operator review queues
 - `semantic-demo`: interactive semantic vector visualization
-- `opencode-fork`: custom skills, launcher workflow, and agent orchestration notes
+- `opencode-fork`: OpenCodex, an OpenCode fork with task DAGs, semantic retrieval, TUI proof artifacts, and stateful agent runtime
 
 This repo is the meta-layer: how those projects get built and operated.
 

@@ -13,7 +13,7 @@ I build AI-assisted systems that turn noisy real-world signals into bounded oper
 | `website-audit-engine` | Browser automation, security/performance checks, confidence-tiered evidence |
 | `leadops` | SQLite, retrieval, mailbox parsing, lead normalization, operator queues |
 | `semantic-demo` | Vector-space visualization, frontend polish, semantic search storytelling |
-| `opencode-fork` | Custom skills, launcher workflow, agent system customization |
+| `opencode-fork` | OpenCodex: OpenCode fork with task DAGs, semantic retrieval, TUI proof artifacts, and stateful agent runtime |
 
 ## How To Read The Profile
 
@@ -25,7 +25,7 @@ Then read:
 2. `leadops` for data/retrieval/product workflow.
 3. `trading-bots` for deeper research-system thinking.
 4. `semantic-demo` for visual/frontend presentation.
-5. `opencode-fork` for workflow customization and skill packaging.
+5. `opencode-fork` for AI coding workbench systems: task DAGs, semantic retrieval, TUI proof artifacts, and stateful agent runtime.
 
 ## What I Am Claiming
 
