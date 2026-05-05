@@ -26,6 +26,7 @@ This is a documentation-first repo. It contains:
 - `docs/operating-model.md` — the role split between human operator, main agent, subagents, tools, and memory/docs.
 - `docs/skills-and-memory.md` — how reusable skills and durable memory keep repeated AI work from restarting at zero.
 - `docs/browser-resource-governance.md` — how shared browser automation resources are controlled so agents do not collide.
+- `docs/agent-safety-model.md` — the credential, filesystem, approval, and review boundaries around agent work.
 - `docs/verification-loop.md` — the evidence and adversarial-review loop used before claims are treated as finished.
 - `docs/public-portfolio-map.md` — how this operating model maps onto the public portfolio repos.
 - `examples/session-slice.md` — a sanitized example of a session structure and decision trail.
@@ -39,6 +40,7 @@ It does not contain private memory, private lead data, client data, secrets, raw
 | `docs/operating-model.md` | How the human/operator role, agents, tools, and review loops fit together |
 | `docs/skills-and-memory.md` | Reusable skills, durable memory, and continuity model |
 | `docs/browser-resource-governance.md` | Shared browser/session controls for parallel agent work |
+| `docs/agent-safety-model.md` | Agent access boundaries, credential handling, and human approval gates |
 | `docs/verification-loop.md` | How claims are checked before work is treated as complete |
 | `examples/session-slice.md` | Compact example of the operating style |
 
@@ -61,8 +63,9 @@ This repo is the meta-layer: how those projects get built and operated.
 1. [Operating Model](docs/operating-model.md)
 2. [Skills and Memory](docs/skills-and-memory.md)
 3. [Browser Resource Governance](docs/browser-resource-governance.md)
-4. [Verification Loop](docs/verification-loop.md)
-5. [Public Portfolio Map](docs/public-portfolio-map.md)
+4. [Agent Safety Model](docs/agent-safety-model.md)
+5. [Verification Loop](docs/verification-loop.md)
+6. [Public Portfolio Map](docs/public-portfolio-map.md)
 
 ## What This Demonstrates
 
