@@ -1,5 +1,7 @@
 # AI Operator Stack
 
+Developed by [Fred McCullough](https://github.com/GalToast)
+
 Public case study of a terminal-first, human-in-the-loop AI operating model.
 
 This repo explains how I use AI agents, local memory, MCP tools, browser automation, reusable skills, and verification loops to build real software and operational workflows. It is not presented as traditional solo hand-coding. It is presented as an AI-native operating practice: I act as architect, operator, reviewer, and quality controller while agents perform bounded implementation, research, testing, and documentation work.
